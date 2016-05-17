@@ -1,5 +1,5 @@
 # Patched GNU time 1.7
-GNU time utility patched with option for displaying elapsed real time in milliseconds.
+GNU time utility patched with an option for displaying *elapsed real time* in milliseconds.
 
 Use the `"%m"` format option to display elapsed real time in milliseconds, i.e.:
 ```
