@@ -6,6 +6,18 @@ Use the `"%m"` format option to display elapsed real time in milliseconds, i.e.:
 $ time --format "%m" <command>
 ```
 
+## Version
+To disambiguate this "patched" version of `time` I have slightly changed the output of `time --version`:
+```
+$ time --version
+GNU time 1.7.2 ms-patch
+```
+For comparison, the original GNU time outputs:
+```
+$ time --version
+GNU time 1.7
+```
+
 # README
 `time` is a program that measures many of the CPU resources, such as
 time and memory, that other programs use.  The GNU version can format
